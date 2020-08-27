@@ -6,7 +6,7 @@ def urai(kata):
     new_urai=[]
     #looping untuk setiap index dan isi dari index di variabel pisah (eg : index 0 isi index= P)
     for index,isi_index in enumerate(pisah):
-        #mengurai urai kata kedalam list baru (new_rajut)
+        #mengurai urai kata kedalam list baru (new_urai)
         # Dengan harapan membuat kata dari slicing bertingkat
         #dari satu huruf(kata), ke dua huruf(kata)... menjadi kata utuh 
         new_urai.append(pisah[0:index+1])
